@@ -23,7 +23,7 @@ import kotlin.math.roundToInt
 /**
  * 前景背景面板布局
  *
- * @param initialPanelState [PanelStateEnum] 当前的面板状态
+ * @param initialPanelState [PanelStateEnum] 面板初始化状态
  * @param swipeableState SwipeableState<PanelStateEnum> swipeable修饰符的状态
  * @param panelStateOffset [@kotlin.ExtensionFunctionType] Function2<PanelStateOffset, Int, Unit> 可以预设面板的各个高度参数
  * @param enabled Boolean 是否开启滑动

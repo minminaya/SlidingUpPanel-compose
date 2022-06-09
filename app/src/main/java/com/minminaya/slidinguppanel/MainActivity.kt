@@ -5,7 +5,6 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
-import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.text.BasicText
 import androidx.compose.material.ExperimentalMaterialApi
@@ -61,11 +60,6 @@ fun Home() {
         Box(modifier = Modifier
             .border(width = 1.dp, color = Color.Black)
             .fillMaxSize()
-            .clickable {
-                scope.launch {
-                    swipeableState.animateTo(PanelStateEnum.HIDDEN)
-                }
-            }
             .background(Color.Green), contentAlignment = Alignment.TopCenter) {
             BasicText(
                 "背景面板", style = TextStyle.Default.copy(color = Color.Red, fontSize = 25.sp)
@@ -110,14 +104,14 @@ private fun ButtonColumn(
             Text(text = "EXPANDED")
         }
         Button(onClick = {
-            animateTo.invoke(PanelStateEnum.COLLAPSED)
-        }) {
-            Text(text = "COLLAPSED")
-        }
-        Button(onClick = {
             animateTo.invoke(PanelStateEnum.ANCHORED)
         }) {
             Text(text = "ANCHORED")
+        }
+        Button(onClick = {
+            animateTo.invoke(PanelStateEnum.COLLAPSED)
+        }) {
+            Text(text = "COLLAPSED")
         }
         Button(onClick = {
             animateTo.invoke(PanelStateEnum.HIDDEN)
