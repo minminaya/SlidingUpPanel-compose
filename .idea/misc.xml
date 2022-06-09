@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/WorkSpace/AndroidStudioProjects/SlidingUpPanelcompose/app/src/main/java/com/minminaya/slidinguppanel/MainActivity.kt" value="1.3265993265993266" />
+        <entry key="..\:/WorkSpace/AndroidStudioProjects/SlidingUpPanelcompose/library/src/main/java/com/minminaya/sliding/SlidingUpPanel.kt" value="0.1438183347350715" />
+        <entry key="..\:/WorkSpace/AndroidStudioProjects/SlidingUpPanelcompose/library/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/WorkSpace/AndroidStudioProjects/SlidingUpPanelcompose/library/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>
